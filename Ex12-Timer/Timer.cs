@@ -12,7 +12,7 @@ namespace Ex12_Timer
 
         public override string ToString()
         {
-            int sec = (Seconds % 60);
+            int sec = (Seconds % 60); 
             int min = ((Seconds / 60) % 60);
             int hours = (Seconds / 3600);
 
